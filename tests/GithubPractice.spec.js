@@ -55,7 +55,7 @@ test("practice test6",async({page})=>{
     console.log("starting practice test 6");
     await page.goto("https://www.saucedemo.com/");
     console.log(await page.title());
-    expect(await page.title()).toBe("Swag Labs");
+    expect(await page.title()).toBe("Swag Lab");
     console.log("ending practice test 6");
 
 })
